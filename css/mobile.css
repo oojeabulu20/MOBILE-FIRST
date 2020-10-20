@@ -1,3 +1,6 @@
+* {
+    box-sizing : border-box;
+}
 body {   
     font-family: "Open Sans", helvetica, arial, sans-serif;   
     margin: 0;   
@@ -10,4 +13,38 @@ body {
 .mainNav {   
     background-color: #8d965b; 
 }
-
+.mainNav ul {   
+    list-style: none;   
+    padding-left: 0;   
+    margin: 0; 
+} 
+.mainNav ul li {   
+    border-bottom: 1px solid #ccc;   
+    padding: 5px; 
+}
+.mainNav ul li a {
+    display : inline-block;
+    width : 100%;
+    font-weight: bold;   
+    text-decoration: none;   
+    color: #fff;   
+    padding: 8px 0;
+}
+img{
+    width : 100%;
+}
+/*just an experiment
+.mainContent {
+    width : 50%;
+}*/
+.mainContent {
+    margin : 0 10px;
+}
+.news{
+    display : flex;
+    flex-wrap: wrap;
+}
+.newsItem {
+    flex-basis: 50%;
+    padding : 0 10px;
+}
