@@ -1,0 +1,26 @@
+/* CSS Document */
+.container{
+	max-width: 1366px;
+	/* 1366x768	16:9*/
+	margin:auto;
+}
+.burgerMenu, .mobH1{
+	display:none;
+}
+header nav ul li h1{
+	display:block;
+	padding:0;
+	margin:5px;
+	font-size:1.2rem;
+	color: #DDEAF2;
+}
+.banner{
+	background-image: url(../images/banner1-1366.jpg);
+	background-repeat: no-repeat;
+	height:200px;
+}
+.banner h2{
+	top:20px;
+	left:120px;
+	font-size: 8em;
+}
